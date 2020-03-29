@@ -94,6 +94,8 @@ namespace Bukimedia.PrestaSharp.Entities
         /// It´s a logical DateTime. Format YYYY-MM-DD HH:MM:SS.
         /// </summary>
         public string date_upd { get; set; }
+		public string ried_customer_nr { get; set; }
+		public string ried_invoice_mail { get; set; }
         public AuxEntities.AssociationsCustomer associations { get; set; }
 
         public customer()

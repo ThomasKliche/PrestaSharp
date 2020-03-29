@@ -261,7 +261,7 @@ namespace Bukimedia.PrestaSharp.Factories
 
             var request = new RestRequest
             {
-                RootElement = "prestashop",
+                //RootElement = "prestashop", //KTH 24.3.2020: wenn man die Zeile weglässt oder durch RootElement=prestashopEntity.GetType().Name ersetzt, dann funktioniert es, sonst sucht er nach einem RootElement prestashop im Antwort XML im prestashop Tag, was es natürlich nicht gibt
                 Resource = resource,
                 Method = Method.PUT
             };
