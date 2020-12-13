@@ -79,6 +79,8 @@ namespace Bukimedia.PrestaSharp.Entities
         public string shipping_number { get; set; }
         public decimal conversion_rate { get; set; }
         public string reference { get; set; }
+        public string cart_rule { get; set; }
+       
         public AuxEntities.AssociationsOrder associations { get; set; }
 
         public order()
